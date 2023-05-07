@@ -54,6 +54,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SeleniumFrameworkUzduotis15\SeleniumFrameworkUzduotis15.csproj">
+      <Project>{3a037cee-469b-4236-b49c-521c86872db3}</Project>
+      <Name>SeleniumFrameworkUzduotis15</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
